@@ -73,6 +73,10 @@ $(document).ready(function(){
     startGame();
     checkAnswer(Number($(this).val()), currentQuestion.answer);
   });
-  
+
+  $('#time-left').text(timeLeft);
+  $('#score').text(score);
+  $('#highScore').text(highScore);
+    
   renderNewQuestion();
 });
