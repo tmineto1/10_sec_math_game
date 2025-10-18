@@ -1,3 +1,39 @@
 h2 {
-  color: blue;
+  color: black;
+  font-weight: bold;
 }
+
+body {
+  background-image: url("images/handwritten-math-equation-pattern-vector-3304902 copy.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "tahoma", sans-serif;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 400px;
+}
+
+#equation {
+  font-weight: bold;
+
+}
+
+#user-input {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #90caf9;
+  outline: none;
+  width: 100px;
+}
+
