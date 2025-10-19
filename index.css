@@ -37,3 +37,11 @@ body {
   width: 100px;
 }
 
+#number-display {
+  font-size: 25px;
+}
+
+#limit {
+  font-size: 25px;
+}
+
